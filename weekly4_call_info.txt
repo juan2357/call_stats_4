@@ -1,0 +1,160 @@
+Cell Phone                    9546321555  
+Number of Relay Stations      0   
+Minutes Used                  0
+Net Cost                      0.00
+Tax Rate                      0.01
+Call Tax                      0.00
+Total Cost of Call            0.00
+
+Cell Phone                    5612971340  
+Number of Relay Stations      5   
+Minutes Used                  50
+Net Cost                      2.00
+Tax Rate                      0.03
+Call Tax                      0.00
+Total Cost of Call            2.00
+
+Cell Phone                    3051234567  
+Number of Relay Stations      8   
+Minutes Used                  25
+Net Cost                      1.60
+Tax Rate                      0.05
+Call Tax                      0.00
+Total Cost of Call            1.60
+
+Cell Phone                    7542346622  
+Number of Relay Stations      24   
+Minutes Used                  17
+Net Cost                      3.26
+Tax Rate                      0.12
+Call Tax                      0.00
+Total Cost of Call            3.26
+
+Cell Phone                    3054432762  
+Number of Relay Stations      15   
+Minutes Used                  30
+Net Cost                      3.60
+Tax Rate                      0.08
+Call Tax                      0.00
+Total Cost of Call            3.60
+
+Cell Phone                    9544321011  
+Number of Relay Stations      50   
+Minutes Used                  100
+Net Cost                      40.00
+Tax Rate                      0.12
+Call Tax                      0.00
+Total Cost of Call            40.00
+
+Cell Phone                    8776219988  
+Number of Relay Stations      87   
+Minutes Used                  82
+Net Cost                      57.07
+Tax Rate                      0.12
+Call Tax                      0.00
+Total Cost of Call            57.07
+
+Cell Phone                    9042224556  
+Number of Relay Stations      4   
+Minutes Used                  5
+Net Cost                      0.16
+Tax Rate                      0.03
+Call Tax                      0.00
+Total Cost of Call            0.16
+
+Cell Phone                    7877176590  
+Number of Relay Stations      11   
+Minutes Used                  1
+Net Cost                      0.09
+Tax Rate                      0.05
+Call Tax                      0.00
+Total Cost of Call            0.09
+
+Cell Phone                    5617278899  
+Number of Relay Stations      20   
+Minutes Used                  45
+Net Cost                      7.20
+Tax Rate                      0.08
+Call Tax                      0.00
+Total Cost of Call            7.20
+
+Cell Phone                    9546321555  
+Number of Relay Stations      4   
+Minutes Used                  3
+Net Cost                      0.10
+Tax Rate                      0.03
+Call Tax                      0.00
+Total Cost of Call            0.10
+
+Cell Phone                    5612971340  
+Number of Relay Stations      79   
+Minutes Used                  86
+Net Cost                      54.35
+Tax Rate                      0.12
+Call Tax                      0.00
+Total Cost of Call            54.35
+
+Cell Phone                    3051234567  
+Number of Relay Stations      8   
+Minutes Used                  25
+Net Cost                      1.60
+Tax Rate                      0.05
+Call Tax                      0.00
+Total Cost of Call            1.60
+
+Cell Phone                    7542346622  
+Number of Relay Stations      24   
+Minutes Used                  118
+Net Cost                      22.66
+Tax Rate                      0.12
+Call Tax                      0.00
+Total Cost of Call            22.66
+
+Cell Phone                    3054432762  
+Number of Relay Stations      115   
+Minutes Used                  25
+Net Cost                      23.00
+Tax Rate                      0.12
+Call Tax                      0.00
+Total Cost of Call            23.00
+
+Cell Phone                    9544321011  
+Number of Relay Stations      43   
+Minutes Used                  10
+Net Cost                      3.44
+Tax Rate                      0.12
+Call Tax                      0.00
+Total Cost of Call            3.44
+
+Cell Phone                    8776219988  
+Number of Relay Stations      265   
+Minutes Used                  22
+Net Cost                      46.64
+Tax Rate                      0.12
+Call Tax                      0.00
+Total Cost of Call            46.64
+
+Cell Phone                    9042224556  
+Number of Relay Stations      2   
+Minutes Used                  5
+Net Cost                      0.08
+Tax Rate                      0.03
+Call Tax                      0.00
+Total Cost of Call            0.08
+
+Cell Phone                    7877176590  
+Number of Relay Stations      89   
+Minutes Used                  67
+Net Cost                      47.70
+Tax Rate                      0.12
+Call Tax                      0.00
+Total Cost of Call            47.70
+
+Cell Phone                    5617278899  
+Number of Relay Stations      40   
+Minutes Used                  56
+Net Cost                      17.92
+Tax Rate                      0.12
+Call Tax                      0.00
+Total Cost of Call            17.92
+
