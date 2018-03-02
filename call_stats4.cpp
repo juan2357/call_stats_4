@@ -111,12 +111,18 @@ void Output(const call_record call_DB[], const int & count)
 		cout << "Output file did not open correctly" << endl;
 		exit(1);
 	}
-
-
-    // use a "for" loop here to
+  // use a "for" loop here to
 	// print the output to file
+	for (i = 0; i < count; i++) {
+		out<< std::left << setw(30)<< "Cell Phone " <<call_DB[i].cell_number<<"  "<<endl;
+		out<< std::left << setw(30)<< "Number of Relay Stations " <<call_DB[i].relays<<"   "<<endl;
+		out<< std::left << setw(30)<< "Minutes Used " <<call_DB[i].call_length<<endl;
+	  out<< std::left << setw(30)<< "Net Cost " <<call_DB[i].net_cost<<endl;
+	  out<< std::left << setw(30)<< "Tax Rate " <<call_DB[i].tax_rate<<endl;
+	  out<< std::left << setw(30)<< "Call Tax " <<call_DB[i].call_tax<<endl;
+	  out<< std::left << setw(30)<< "Total Cost of Call " <<call_DB[i].total_cost<<endl<<endl;
 
-
+	}
 	out.close();
 }
 
@@ -141,10 +147,17 @@ void Process(call_record call_DB[], const int & count)
 	{
 		call_DB[i].net_cost = call_DB[i].relays / 50.0 * .40 * call_DB[i].call_length;
 
-		if (call_DB[i].relays >= 0 && call_DB[i].relays <= 5)
-		{
-			call_DB[i].tax_rate = 1;
-        }
+		if (customer_record.relays <= 0 && customer_record.relays <=5) {
+	    customer_record.tax_rate = 0.01;
+	  } else if (customer_record.relays <= 6 && customer_record.relays <=11) {
+	    customer_record.tax_rate = 0.03;
+	  } else if (customer_record.relays <= 12 && customer_record.relays <=20) {
+	    customer_record.tax_rate = 0.05;
+	  } else if (customer_record.relays <= 21 && customer_record.relays <=50) {
+	    customer_record.tax_rate = 0.08;
+	  } else {
+	    customer_record.tax_rate = 0.12;
+	  }
 
                              // ADD THE REST OF THE CODE TO PROCESS a call_DB[i] record
 
