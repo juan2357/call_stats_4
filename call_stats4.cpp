@@ -55,11 +55,9 @@ void Process(call_record call_DB[ ], const int & count);
 
 ///*************************************************************************************
 //Name:  Input
-//Precondition:
-//Postcondition:
-//
-//Description:
-
+//Precondition: The varialbes cell_num, relays, and call_length have not been initialized
+//Postcondition: The variables have been initialized by data file.
+//Description: Get input values from txt file.
 //*************************************************************************************
 
 void Input(call_record call_DB[], int & count)
@@ -81,7 +79,8 @@ void Input(call_record call_DB[], int & count)
 	while (!in.eof())
 	{
 		in >> call_DB[count].cell_number;
-		// you put in statements to read relay and call length
+		in >> call_DB[count].relays;
+		in >> call_DB[count].call_length;
 		count++;
 	}
 
