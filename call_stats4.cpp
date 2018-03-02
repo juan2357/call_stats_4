@@ -1,21 +1,21 @@
 /************************************************************************************************************************
 
-Name:               Z#: 
-Course: 
+Name: Juan Perez   Z#:23026404
+Course: COP 3014
 Professor: Dr. Lofton Bullard
-Due Date:              Due Time: 
+Due Date: 3/2/18     Due Time: 11:59
 Total Points: 20
 Assignment 6: call_stats4.cpp
 
-Description: 
+Description:
 
 
 Note:  In this assignment you will
 
-1. Read the contents of a datafile one record at a time into an array of 
+1. Read the contents of a datafile one record at a time into an array of
    records;
-2. Process the data stored in an array of records; 
-3. Print the records stored in an array to a datafile using an ofstream 
+2. Process the data stored in an array of records;
+3. Print the records stored in an array to a datafile using an ofstream
    (output file stream) object;
 4. Use an array of record records;
 6. Use an ifstream object;
@@ -24,7 +24,7 @@ Note:  In this assignment you will
 
 #include <iostream>
 #include <string>
-#include <fstream> 
+#include <fstream>
 #include <iomanip>
 using namespace std;
 
@@ -55,10 +55,10 @@ void Process(call_record call_DB[ ], const int & count);
 
 ///*************************************************************************************
 //Name:  Input
-//Precondition: 
-//Postcondition: 
-//				
-//Description:  
+//Precondition:
+//Postcondition:
+//
+//Description:
 
 //*************************************************************************************
 
@@ -77,44 +77,44 @@ void Input(call_record call_DB[], int & count)
 	}
 
 	//Remember to use a while loop when reading from a file because
-	//you do not know how many records you will be reading. 
+	//you do not know how many records you will be reading.
 	while (!in.eof())
 	{
 		in >> call_DB[count].cell_number;
 		// you put in statements to read relay and call length
 		count++;
 	}
-	
+
 
 	in.close();
 }
 
 ///*************************************************************************************
 //Name:  Output
-//Precondition: 
-//Postcondition: 
-//               
-//Description:  
+//Precondition:
+//Postcondition:
+//
+//Description:
 //*************************************************************************************
 
 void Output(const call_record call_DB[], const int & count)
 {
 	ofstream out; //declare the output file stream "out".
-	
+
 	out.open("weekly4_call_info.txt");//bind the file "weekly4_call_info.txt" to
 	                       //to the output file stream "out".
 
 	//Use the magic formula to format your output.  Remember that you
 	//are not using "cout".  In this example we are using "out".
 	//eg... out.setf(showpoint);
-	
+
 	if (out.fail()) // if problem opening file, print message and exit program
 	{
 		cout << "Output file did not open correctly" << endl;
 		exit(1);
 	}
-	
-                
+
+
     // use a "for" loop here to
 	// print the output to file
 
@@ -124,9 +124,9 @@ void Output(const call_record call_DB[], const int & count)
 
 ///*************************************************************************************
 //Name:  Process
-//Precondition: 
-//Postcondition: 
-//Description:  
+//Precondition:
+//Postcondition:
+//Description:
 //*************************************************************************************
 
 void Process(call_record call_DB[], const int & count)
@@ -136,7 +136,7 @@ void Process(call_record call_DB[], const int & count)
 	//Remember to use a "for" loop when you know how many items
 	//you will be processing.  Use the dot operator when you are
 	//accessing fields in a record.  For example, when we need
-	//to access the relay field in the first record in the array use 
+	//to access the relay field in the first record in the array use
 	//call_DB[0].relay   .
 
 	for (i = 0; i < count; i++)
@@ -150,7 +150,7 @@ void Process(call_record call_DB[], const int & count)
 
                              // ADD THE REST OF THE CODE TO PROCESS a call_DB[i] record
 
-		
+
 	}
 
 }
@@ -167,8 +167,8 @@ int main()
 	                       //in the array call_DB.
 
 	Output(call_DB, count);//this function prints all the fields
-	                       //of every record stored in the array call_DB to an output file.  
+	                       //of every record stored in the array call_DB to an output file.
 	                       //Each record with be print on a separate line in the output file.
-	                       
+
 		return 0;
 }
