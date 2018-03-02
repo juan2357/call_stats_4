@@ -102,10 +102,9 @@ void Output(const call_record call_DB[], const int & count)
 
 	out.open("weekly4_call_info.txt");//bind the file "weekly4_call_info.txt" to
 	                       //to the output file stream "out".
-
-	//Use the magic formula to format your output.  Remember that you
-	//are not using "cout".  In this example we are using "out".
-	//eg... out.setf(showpoint);
+	out.setf(ios::showpoint);
+ 	out.precision(2);
+ 	out.setf(ios::fixed);
 
 	if (out.fail()) // if problem opening file, print message and exit program
 	{
